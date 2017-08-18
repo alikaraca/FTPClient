@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.arayuzController">
+   <children>
+      <AnchorPane layoutX="-19.0" layoutY="-45.0" prefHeight="517.0" prefWidth="466.0">
+         <children>
+            <Button fx:id="btn" layoutX="192.0" layoutY="440.0" mnemonicParsing="false" onAction="#btn_click" text="Yüklemeyi Başlat" />
+            <TextField fx:id="txt" layoutX="163.0" layoutY="110.0" />
+            <Label layoutX="30.0" layoutY="110.0" prefHeight="25.0" prefWidth="114.0" text="FTP Adresini Giriniz" />
+            <Label layoutX="227.0" layoutY="343.0" prefHeight="25.0" prefWidth="64.0" text="Dosya Adı" />
+            <Label layoutX="30.0" layoutY="150.0" prefHeight="25.0" prefWidth="114.0" text="Kullanıcı Adı Giriniz" />
+            <Label layoutX="206.0" layoutY="277.0" prefHeight="25.0" prefWidth="77.0" text="Kayıt Dizini" />
+            <TextField fx:id="txt1" layoutX="297.0" layoutY="277.0" />
+            <TextField fx:id="txt2" layoutX="297.0" layoutY="343.0" />
+            <TextField fx:id="txt3" layoutX="163.0" layoutY="150.0" />
+            <Label layoutX="30.0" layoutY="189.0" prefHeight="25.0" prefWidth="114.0" text="Parola Giriniz" />
+            <TextField fx:id="txt4" layoutX="163.0" layoutY="189.0" />
+            <Label layoutX="363.0" layoutY="154.0" text="Port" />
+            <TextField fx:id="txt5" layoutX="354.0" layoutY="189.0" prefHeight="0.0" prefWidth="40.0" />
+            <Button fx:id="gozat" layoutX="371.0" layoutY="309.0" mnemonicParsing="false" onAction="#gozat_Click" text="Gözat" />
+            <ListView fx:id="lst1" layoutX="30.0" layoutY="322.0" prefHeight="143.0" prefWidth="149.0" />
+            <Button fx:id="btn2" layoutX="30.0" layoutY="277.0" mnemonicParsing="false" onAction="#listele" prefHeight="25.0" prefWidth="149.0" text="Dosyaları Listele" />
+            <Label fx:id="durum" layoutX="340.0" layoutY="110.0" prefHeight="25.0" prefWidth="122.0" text="Bağlantı Durumu" />
+            <Label fx:id="giris" layoutX="324.0" layoutY="227.0" prefHeight="25.0" prefWidth="101.0" text="Giriş Durumu" />
+            <Button fx:id="btn_g" layoutX="197.0" layoutY="227.0" mnemonicParsing="false" onAction="#btn_Giris" text="Sunucuya Giriş" />
+            <Label fx:id="lbl_yukleme" layoutX="322.0" layoutY="433.0" prefHeight="32.0" prefWidth="105.0" text="Yükleme Durumu" />
+            <Button fx:id="geri" layoutX="43.0" layoutY="55.0" mnemonicParsing="false" onAction="#btn_GeriDon" text="&lt;&lt;Geri" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

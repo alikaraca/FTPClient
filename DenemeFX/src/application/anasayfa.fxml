@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane stylesheets="application.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.anasayfaController">
+   <children>
+      <AnchorPane layoutY="-14.0" prefHeight="425.0" prefWidth="414.0">
+         <children>
+            <Button fx:id="btn_Down" layoutX="79.0" layoutY="264.0" mnemonicParsing="false" onAction="#click_Download" prefHeight="40.0" prefWidth="114.0" text="FTPDownload" />
+            <Button fx:id="btn_Up" layoutX="247.0" layoutY="264.0" mnemonicParsing="false" onAction="#click_Upload" prefHeight="40.0" prefWidth="114.0" text="FTPUpload" />
+            <ImageView fx:id="image" fitHeight="160.0" fitWidth="312.0" layoutX="102.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
